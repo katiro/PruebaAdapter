@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PruebaAdapter</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="sexo">Sexo</string>
+    <string name="carnet">Carnet</string>
+    <string name="carrera">Carrera</string>
+    <string name="celda">Celda</string>
+    <string name="contenido">Contenido</string>
+</resources>

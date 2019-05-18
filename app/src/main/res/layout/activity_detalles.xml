@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalles">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="24dp"
+        android:text="@string/nombre"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="223dp"
+        android:layout_marginRight="223dp"
+        android:layout_x="71dp"
+        android:layout_y="60dp"
+        android:hint="@string/nombre"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="136dp"
+        android:text="@string/apellido"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_x="71dp"
+        android:layout_y="167dp"
+        android:hint="@string/apellido"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="241dp"
+        android:text="@string/sexo"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <TextView
+        android:id="@+id/carnet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="172dp"
+        android:layout_y="347dp"
+        android:text="@string/carnet"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <TextView
+        android:id="@+id/carrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/carnet"
+        android:layout_alignRight="@+id/carnet"
+        android:layout_marginEnd="-223dp"
+        android:layout_marginRight="-223dp"
+        android:layout_x="171dp"
+        android:layout_y="464dp"
+        android:text="@string/carrera"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="565dp" />
+</RelativeLayout>
