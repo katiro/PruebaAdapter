@@ -5,6 +5,15 @@
     <string name="sexo">Sexo</string>
     <string name="carnet">Carnet</string>
     <string name="carrera">Carrera</string>
-    <string name="celda">Celda</string>
-    <string name="contenido">Contenido</string>
+    <string name="titulo"> Lista de alumnos</string>
+    <string name="nuevo"> Nuevo Registro</string>
+    <string name="sfem">Femenino</string>
+    <string name="smas">Masculino</string>
+    <string name="contenido">Alumnos</string>
+    <string name="btnAgregar">AGREGAR NUEVO REGISTRO</string>
+    <string name="editar">Editar Registro</string>
+    <string name="btnguardar">GUARDAR</string>
+
+
+
 </resources>

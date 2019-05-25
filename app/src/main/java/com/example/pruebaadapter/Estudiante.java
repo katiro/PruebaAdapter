@@ -1,8 +1,13 @@
 package com.example.pruebaadapter;
 
-public class Estudiante {
+import java.io.Serializable;
+
+public class Estudiante implements Serializable {
 
     private String nombre, apellido, sexo, carnet, carrera;
+
+    public Estudiante(){
+    }
 
     public Estudiante(String nombre, String apellido, String sexo, String carnet, String carrera){
         this.nombre=nombre;

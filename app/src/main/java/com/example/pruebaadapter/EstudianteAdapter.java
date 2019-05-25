@@ -44,6 +44,12 @@ public class EstudianteAdapter extends ArrayAdapter {
         return item;
     }
 
+    public Estudiante getEstudiante(int posicion){
+        Estudiante estudiante = datos.get(posicion);
+        return estudiante;
+    }
+
+
 
 
 

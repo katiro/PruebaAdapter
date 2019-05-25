@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="7dp"
-        android:layout_marginLeft="7dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="35dp"
         android:text="@string/nombre" />
 
@@ -28,7 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="112dp"
         android:layout_marginLeft="112dp"
-        android:layout_marginTop="68dp" />
+        android:layout_marginTop="35dp" />
 
     <TextView
         android:id="@+id/apellido"
@@ -40,7 +40,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="75dp"
         android:text="@string/apellido" />
 
     <TextView
@@ -50,9 +50,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginLeft="118dp"
-        android:layout_marginTop="121dp" />
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="75dp" />
 
     <TextView
         android:id="@+id/sexo"
@@ -64,7 +64,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="115dp"
         android:text="@string/sexo" />
 
     <TextView
@@ -74,9 +74,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="119dp"
-        android:layout_marginLeft="119dp"
-        android:layout_marginTop="198dp" />
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="115dp" />
 
     <TextView
         android:id="@+id/carnet"
@@ -86,9 +86,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="9dp"
-        android:layout_marginLeft="9dp"
-        android:layout_marginTop="232dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="155dp"
         android:text="@string/carnet" />
 
     <TextView
@@ -98,9 +98,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="122dp"
-        android:layout_marginLeft="122dp"
-        android:layout_marginTop="257dp" />
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="155dp" />
 
     <TextView
         android:id="@+id/carrera"
@@ -110,9 +110,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginTop="297dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="195dp"
         android:text="@string/carrera" />
 
     <TextView
@@ -122,8 +122,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="124dp"
-        android:layout_marginTop="321dp" />
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="195dp" />
 
 </RelativeLayout>

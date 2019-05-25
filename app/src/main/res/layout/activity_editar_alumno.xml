@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarAlumno">
+
+    <TextView
+        android:id="@+id/editar"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="#6F5F5F"
+        android:text="@string/editar"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="-22dp"
+        tools:layout_editor_absoluteY="-2dp" />
+    <TextView
+        android:id="@+id/nombre-edt"
+        android:layout_width="86dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/editar"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/nombre"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_marginLeft="8dp"/>
+
+    <EditText
+        android:id="@+id/txtnombre_edt"
+        android:layout_width="373dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nombre-edt"
+        android:layout_marginLeft="8dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/apellido_edt"
+        android:layout_width="86dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/txtnombre_edt"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/apellido"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre_edt"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/txtapellido_edt"
+        android:layout_width="373dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/apellido_edt"
+        android:layout_marginLeft="8dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/carrera-edt"
+        android:layout_width="86dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/txtapellido_edt"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/carrera"
+        app:layout_constraintBottom_toTopOf="@+id/txtcarrera_edt"
+        app:layout_constraintTop_toBottomOf="@+id/txtapellido_edt"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/txtcarrera_edt"
+        android:layout_width="373dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/carrera-edt"
+        android:layout_marginLeft="8dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <TextView
+        android:id="@+id/carnet-edt"
+        android:layout_width="86dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/carnet"
+        app:layout_constraintBottom_toTopOf="@+id/txtcarnet-edt"
+        app:layout_constraintTop_toBottomOf="@+id/txtcarrera_edt"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_below="@+id/txtcarrera_edt"
+        android:layout_marginLeft="8dp"
+        />
+
+    <EditText
+        android:id="@+id/txtcarnet-edt"
+        android:layout_width="373dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/carnet-edt"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/sexo-edt"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/sexo-edt"
+        android:layout_width="86dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/sexo"
+        android:layout_below="@+id/txtcarnet-edt"
+        app:layout_constraintBottom_toTopOf="@+id/rbtnsexo"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_marginLeft="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/rbtnsexo"
+        android:layout_width="187dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/sexo-edt"
+        tools:layout_editor_absoluteX="15dp"
+        android:layout_marginLeft="8dp">
+
+        <RadioButton
+            android:id="@+id/femenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sfem" />
+
+        <RadioButton
+            android:id="@+id/masculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/smas" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/agregar-edt"
+        android:layout_width="320dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/rbtnsexo"
+        android:layout_centerHorizontal="true"
+        android:background="#6F5F5F"
+        android:enabled="false"
+        android:text="@string/btnguardar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="571dp" />
+</RelativeLayout>
