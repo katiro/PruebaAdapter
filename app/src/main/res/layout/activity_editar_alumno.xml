@@ -151,7 +151,7 @@
         android:layout_below="@+id/rbtnsexo"
         android:layout_centerHorizontal="true"
         android:background="#6F5F5F"
-        android:enabled="false"
+        android:enabled="true"
         android:text="@string/btnguardar"
         android:textColor="#FFFFFF"
         android:textStyle="bold"

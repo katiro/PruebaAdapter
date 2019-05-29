@@ -4,17 +4,28 @@ import java.io.Serializable;
 
 public class Estudiante implements Serializable {
 
+
     private String nombre, apellido, sexo, carnet, carrera;
+    private int id;
 
     public Estudiante(){
     }
 
-    public Estudiante(String nombre, String apellido, String sexo, String carnet, String carrera){
+    public Estudiante(int id,String nombre, String apellido, String sexo, String carnet, String carrera){
+        this.id = id;
         this.nombre=nombre;
         this.apellido=apellido;
         this.sexo=sexo;
         this.carnet=carnet;
         this.carrera=carrera;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
