@@ -13,6 +13,8 @@
     <string name="btnAgregar">AGREGAR NUEVO REGISTRO</string>
     <string name="editar">Editar Registro</string>
     <string name="btnguardar">GUARDAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="aceptar">ACEPTAR</string>
 
 
 

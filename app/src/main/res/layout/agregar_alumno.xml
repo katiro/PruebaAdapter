@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/nuevo-al"
+        android:id="@+id/nuevoAl"
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:background="#6F5F5F"
@@ -18,107 +18,107 @@
         tools:layout_editor_absoluteY="-2dp" />
 
     <TextView
-        android:id="@+id/nombre-nv"
+        android:id="@+id/nombreNv"
         android:layout_width="86dp"
         android:layout_height="29dp"
-        android:layout_below="@+id/nuevo-al"
+        android:layout_below="@+id/nuevoAl"
         android:layout_marginTop="21dp"
         android:layout_marginBottom="8dp"
         android:text="@string/nombre"
-        app:layout_constraintBottom_toTopOf="@+id/txtagregar_nuevo"
-        app:layout_constraintTop_toBottomOf="@+id/nuevo-al"
+        app:layout_constraintBottom_toTopOf="@+id/txtagregarNv"
+        app:layout_constraintTop_toBottomOf="@+id/nuevoAl"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="16dp"
         android:layout_marginLeft="8dp"/>
 
     <EditText
-        android:id="@+id/txtagregar_nuevo"
+        android:id="@+id/txtagregarNv"
         android:layout_width="373dp"
         android:layout_height="35dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="123dp"
-        android:layout_below="@+id/nombre-nv"
+        android:layout_below="@+id/nombreNv"
         android:layout_marginLeft="8dp"/>
 
     <TextView
-        android:id="@+id/apellido-nv"
+        android:id="@+id/apellidoNv"
         android:layout_width="86dp"
         android:layout_height="29dp"
-        android:layout_below="@+id/txtagregar_nuevo"
+        android:layout_below="@+id/txtagregarNv"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:text="@string/apellido"
-        app:layout_constraintBottom_toTopOf="@+id/txtapellido_nuevo"
-        app:layout_constraintTop_toBottomOf="@+id/txtagregar_nuevo"
+        app:layout_constraintBottom_toTopOf="@+id/txtapellidoNv"
+        app:layout_constraintTop_toBottomOf="@+id/txtagregarNv"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="16dp" />
 
     <EditText
-        android:id="@+id/txtapellido_nuevo"
+        android:id="@+id/txtapellidoNv"
         android:layout_width="373dp"
         android:layout_marginLeft="8dp"
         android:layout_height="35dp"
-        android:layout_below="@+id/apellido-nv"
+        android:layout_below="@+id/apellidoNv"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="203dp" />
 
     <TextView
-        android:id="@+id/carrera-nv"
+        android:id="@+id/carreraNv"
         android:layout_width="86dp"
         android:layout_height="29dp"
-        android:layout_below="@+id/txtapellido_nuevo"
+        android:layout_below="@+id/txtapellidoNv"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:text="@string/carrera"
-        app:layout_constraintBottom_toTopOf="@+id/txtcarrera_nuevo"
-        app:layout_constraintTop_toBottomOf="@+id/txtapellido_nuevo"
+        app:layout_constraintBottom_toTopOf="@+id/txtcarreraNv"
+        app:layout_constraintTop_toBottomOf="@+id/txtapellidoNv"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="16dp" />
 
     <EditText
-        android:id="@+id/txtcarrera_nv"
+        android:id="@+id/txtcarreraNv"
         android:layout_width="373dp"
         android:layout_height="35dp"
         android:layout_marginLeft="8dp"
-        android:layout_below="@+id/carrera-nv"
+        android:layout_below="@+id/carreraNv"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="291dp" />
 
     <TextView
-        android:id="@+id/carnet-nv"
+        android:id="@+id/carnetNv"
         android:layout_width="86dp"
         android:layout_height="29dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="8dp"
         android:text="@string/carnet"
-        app:layout_constraintBottom_toTopOf="@+id/txtcarnet-nv"
-        app:layout_constraintTop_toBottomOf="@+id/txtcarrera_nv"
+        app:layout_constraintBottom_toTopOf="@+id/txtcarnetNv"
+        app:layout_constraintTop_toBottomOf="@+id/txtcarreraNv"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="16dp"
-        android:layout_below="@+id/txtcarrera_nv"
+        android:layout_below="@+id/txtcarreraNv"
         android:layout_marginLeft="8dp"
         />
 
     <EditText
-        android:id="@+id/txtcarnet-nv"
+        android:id="@+id/txtcarnetNv"
         android:layout_width="373dp"
         android:layout_height="35dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/sexo-nv"
+        app:layout_constraintBottom_toTopOf="@+id/sexoNv"
         tools:layout_editor_absoluteX="16dp"
-        android:layout_below="@+id/carnet-nv"
+        android:layout_below="@+id/carnetNv"
         android:layout_marginLeft="8dp"
         />
 
     <TextView
-        android:id="@+id/sexo-nv"
+        android:id="@+id/sexoNv"
         android:layout_width="86dp"
         android:layout_height="29dp"
         android:layout_marginBottom="8dp"
         android:text="@string/sexo"
-        android:layout_below="@+id/txtcarnet-nv"
+        android:layout_below="@+id/txtcarnetNv"
         app:layout_constraintBottom_toTopOf="@+id/rbtnsexo"
         tools:layout_editor_absoluteX="16dp"
         android:layout_marginLeft="8dp"/>
@@ -128,8 +128,8 @@
         android:layout_width="187dp"
         android:layout_height="59dp"
         android:layout_marginBottom="50dp"
-        android:layout_below="@+id/sexo-nv"
-        app:layout_constraintBottom_toTopOf="@+id/agregar-nv"
+        android:layout_below="@+id/sexoNv"
+        app:layout_constraintBottom_toTopOf="@+id/agregarNv"
         tools:layout_editor_absoluteX="15dp"
         android:layout_marginLeft="8dp">
 
@@ -150,13 +150,12 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/agregar-nv"
+        android:id="@+id/agregarNv"
         android:layout_width="320dp"
         android:layout_height="36dp"
         android:layout_below="@+id/rbtnsexo"
         android:layout_centerHorizontal="true"
         android:background="#6F5F5F"
-        android:enabled="false"
         android:text="@string/btnAgregar"
         android:textColor="#FFFFFF"
         android:textStyle="bold"

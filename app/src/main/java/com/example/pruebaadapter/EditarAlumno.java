@@ -1,6 +1,7 @@
 package com.example.pruebaadapter;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -83,16 +84,24 @@ public class EditarAlumno extends AppCompatActivity implements Serializable{
         }
 
         Estudiante editado= new Estudiante();
-        editado.setId(estudiante.getId());
-        editado.setNombre(nombre);
-        editado.setApellido(apellido);
-        editado.setCarrera(carrera);
-        editado.setCarnet(carnet);
-        editado.setSexo(sexo);
-        Intent intent = new Intent(EditarAlumno.this, MainActivity.class );
-        intent.putExtra("editado", editado);
-        intent.putExtra("posi",posi);
-        setResult(Activity.RESULT_OK,intent);
-        finish();
+        if(nombre.equalsIgnoreCase("") || apellido.equalsIgnoreCase("")
+        || carnet.equalsIgnoreCase("") || sexo.equalsIgnoreCase("")
+        || carrera.equalsIgnoreCase("")){
+            AlertDialog alerta= new AlertDialog.Builder(EditarAlumno.this)
+                    .setMessage("Se deben llenar todos los campos").create();
+            alerta.show();
+        }else{
+            editado.setId(estudiante.getId());
+            editado.setNombre(nombre);
+            editado.setApellido(apellido);
+            editado.setCarrera(carrera);
+            editado.setCarnet(carnet);
+            editado.setSexo(sexo);
+            Intent intent = new Intent(EditarAlumno.this, MainActivity.class );
+            intent.putExtra("editado", editado);
+            intent.putExtra("posi",posi);
+            setResult(Activity.RESULT_OK,intent);
+            finish();
+        }
     }
 }
